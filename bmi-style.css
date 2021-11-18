@@ -1,0 +1,110 @@
+
+.bmi-calculator h3{
+    font-size: 35px;
+    font-weight: 300;
+    padding-top: 75px;
+    margin-left: 570px;
+}
+
+.bmi-calculator h3 b{
+    color: #f52a50;
+}
+.bmi-calculator h1, h2, h3, h4, h5, h6,p {
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    margin: 0;
+}
+
+.bmi-calculator .form {
+    background-color: #fff;
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    margin: 150px auto 60px 550px;
+    display: block;
+    border: solid 1px#289df6;
+    box-shadow: 0 0 40px 0 #ddd;
+}
+
+.bmi-calculator .row-one {
+    padding: 40px 20px 15px 20px;
+    display: flex;
+}
+
+.bmi-calculator .row-two {
+    padding: 30px 20px 15px 20px;
+    display: flex;
+}
+
+.bmi-calculator .text-input {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #dbeffe;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.bmi-calculator .text {
+    display: inline-block;
+    margin: 5px 20px 5px 8px;
+}
+
+.bmi-calculator .text-input1 {
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #dbeffe;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.bmi-calculator #submit {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background-color: #f52a50;
+    color: #fff;
+    margin: auto;
+    display: block;
+    outline: none;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+.bmi-calculator #result{
+    margin-left: 46%;
+    font-size: 30px;
+    color: #f52a50;
+    font-weight: bold;
+}
+.bmi-calculator .bmi-img{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.bmi-calculator h1{
+    padding: 5% 0;
+}
+
+.footer-patient h3{
+    color: aliceblue;
+}
+
+.footer-hospital h3{
+    color: aliceblue;
+}
+
+.subscribe-form h3{
+    color: aliceblue;
+}
+.copyright h5{
+    color: gray;
+}

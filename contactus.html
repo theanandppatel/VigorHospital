@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us || Vigor Hospital</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/Vigor Hospital (3)-modified.png" sizes="192x192">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <!-- Main css -->
+  <link rel="stylesheet" href="nav-footer.css">
+
+  <!-- ContactUs css -->
+  <link rel="stylesheet" href="contactus-style.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="font-weight: bolder; font-size: 30px;">VIGOR HOSPITAL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end nav-pills" id="navbarNav">
+        <ul class="navbar-nav nav-fill">
+          <li class="nav-item">
+            <a class="nav-link coolBeans" href="index.html" style="font-weight: normal;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link coolBeans" href="OurTeam.html" style="font-weight: normal;">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link coolBeans" href="department.html" style="font-weight: normal;">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link coolBeans" href="bmi-calc.html" style="font-weight: normal;">BMI Calculator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="font-weight: normal;">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+
+  <div class="contactus">
+
+    <div class="contactus-banner">
+      <h2>Contact Us</h2>
+      <h5>Vigor Hospital > Contact Us</h5>
+    </div>
+
+    <div class="container-contact">
+      <div class="contact-details">
+        <h3>Contact Us</h3>
+
+        <div class="underline"></div>
+
+        <div class="contact-form">
+          <div class="form-details">
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Name<span class="required"
+                  style="color: red;">*</span></label>
+              <center>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name" required>
+              </center>
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Mobile<span class="required"
+                  style="color: red;">*</span></label>
+              <center>
+                <input type="text" class="form-control" id="formGroupExampleInput2"
+                  placeholder="10 digits Mobile Number">
+              </center>
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">Email<span class="required"
+                  style="color: red;">*</span></label>
+              <center>
+                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="abc@gmail.com">
+              </center>
+            </div>
+            <div class="col-12">
+              <center>
+                <button class="btn btn-primary" type="submit" onclick="sendcontactmail()">Submit</button>
+              </center>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="address">
+        <h3>Address</h3>
+        <div class="underline"></div>
+
+        <div class="address-details">
+          <div class="contact-location">
+            <i class="fas fa-map-marker mark contact-icon"></i>
+            <h5>Vigor Hospital, India</h5>
+          </div>
+          <br>
+          <div class="contact-phone">
+            <i class="fas fa-phone-square contact-icon"></i>
+            <a class="details" style="text-decoration: none; color: black;" href="tel: 000 99988877"> 000 99988877</a>
+          </div>
+          <br>
+          <div class="contact-phone">
+            <i class="far fa-envelope contact-icon" aria-hidden="true"></i>
+            <a class="details" style="text-decoration: none; color: black;"
+              href="mailto:contact@vigorhospital.in">contact@vigorhospital.in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Star Footer -->
+
+  <div class="footer">
+
+    <div class="footer-logo">
+      <img src="images/Vigor Hospital (1).jpg" alt="">
+      <h3>Vigor Hospital</h3>
+    </div>
+    <div class="footer-patient single-footer-widget pd-bottom50">
+      <h3>For Patients</h3>
+      <hr class="border">
+      <ul class="links usefull-links fl-lft" style="text-decoration: none;">
+        <li>
+          <a href="https://www.google.co.in/maps/place/CHARUSAT+Hospital/@22.6024825,72.8190039,17z/data=!3m1!4b1!4m5!3m4!1s0x395e572db653aed9:0xc0060cc3f2b67dc9!8m2!3d22.6024825!4d72.8211926"
+            style="text-decoration: none; color: aliceblue;">Locations</a>
+        </li>
+        <li>
+          <a href="medicine.html" style="text-decoration: none; color: aliceblue;">Medicines</a>
+        </li>
+        <li>
+          <a href="OurTeam.html" style="text-decoration: none; color: aliceblue;">Our Team</a>
+        </li>
+        <li>
+          <a href="appointment.html" style="text-decoration: none; color: aliceblue;">Book an appointment</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-hospital single-footer-widget pd-bottom50">
+      <h3>Our Hospital</h3>
+      <hr class="border">
+      <ul class="links usefull-links fl-lft" style="text-decoration: none;">
+        <li>
+          <a href="#about-section" style="text-decoration: none; color: aliceblue;">About Us</a>
+        </li>
+        <li>
+          <a href="contactus.html" style="text-decoration: none; color: aliceblue;">Contact Us</a>
+        </li>
+        <li>
+          <a href="" style="text-decoration: none; color: aliceblue;">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="department.html" style="text-decoration: none; color: aliceblue;">Departments</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="subscribe-form">
+      <h3>Subscribe Form</h3>
+      <hr class="border">
+      <div class="form-outer">
+        <div class="container">
+          <form class="form" action="javascript:sendmail()" method="post">
+            <div class="form-input">
+              <span class="icon"><i class="fas fa-user" aria-hidden="true"></i></span>
+              <input type="text" name="Name" id="patient-name" placeholder="Enter Your Name" required>
+            </div>
+            <div class="form-input">
+              <span class="icon"><i class="fas fa-phone-alt"></i></span>
+              <input type="tel" name="Number" id="patient-num" placeholder="Enter Your Contact Number" required>
+            </div>
+            <div class="form-input">
+              <span class="icon"><i class="fas fa-envelope"></i></span>
+              <input type="email" name="Email" id="patient-mail" placeholder="Enter Your Email" required>
+            </div>
+            <button class="submit-btn" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="social-media">
+    <h5>Follow Us on Social Media</h5>
+    <a style="text-decoration: none;" href="https://www.facebook.com/" target="_blank">
+      <i class="fab fa-facebook fa-lg"></i>
+    </a>
+    <a style="text-decoration: none;" href="https://www.twitter.com/" target="_blank">
+      <i class="fab fa-twitter fa-lg"></i>
+    </a>
+    <a style="text-decoration: none;" href="https://www.linkedin.com/" target="_blank">
+      <i class="fab fa-linkedin fa-lg"></i>
+    </a>
+    <a style="text-decoration: none;" href="https://www.instagram.com/" target="_blank">
+      <i class="fab fa-instagram fa-lg"></i>
+    </a>
+    <a style="text-decoration: none;" href="https://www.youtube.com/" target="_blank">
+      <i class="fab fa-youtube fa-lg"></i>
+    </a>
+
+  </div>
+
+  <div class="copyright">
+    <h5 style="font-size: 16px;">Copyrights © 2021 All Rights Reserved by Vigor Hospitals.</h5>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script>
+    function sendcontactmail() {
+
+      var contactname = $('#formGroupExampleInput').val();
+      var contactemail = $('#formGroupExampleInput2').val();
+      var contactnumber = $('#formGroupExampleInput3').val();
+
+
+
+      var Body = 'Name: ' + contactname + '<br>Email: ' + contactemail + '<br>Contact Number: ' + contactnumber;
+
+
+      Email.send({
+        SecureToken: "fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+        To: "info.vigorhospital@gmail.com",
+        From: "info.vigorhospital@gmail.com",
+        Subject: "Contact Details",
+        Body: Body
+      }).then(
+        message => {
+
+          if (message == 'OK') {
+            alert('We will contact you soon.');
+          }
+          else {
+
+            alert('Please fill up form once again');
+
+          }
+
+        }
+      );
+
+
+
+    }
+  </script>
+  <script>
+    function sendmail() {
+
+      var name = $('#patient-name').val();
+      var email = $('#patient-mail').val();
+      var number = $('#patient-num').val();
+
+
+
+      var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Contact Number: ' + number;
+
+
+      Email.send({
+        SecureToken: "fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+        To: "info.vigorhospital@gmail.com",
+        From: "info.vigorhospital@gmail.com",
+        Subject: "Subscribe Form Details",
+        Body: Body
+      }).then(
+        message => {
+
+          if (message == 'OK') {
+            alert('Thank you for filling subscribe Form');
+          }
+          else {
+            console.error(message);
+            alert('Please fill up form once again')
+
+          }
+
+        }
+      );
+
+
+
+    }
+  </script>
+</body>
+
+</html>

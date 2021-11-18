@@ -1,0 +1,71 @@
+.department-title{
+    padding: 0 150px;
+    
+}
+.department .border{
+    width: 150px;
+    padding: 0 0;
+    height: 6px;
+    color: rgb(31, 31, 247);
+    background-color:rgb(31, 31, 247) ;
+    border-radius: 5px;
+}
+
+.department{
+    padding: 80px 100px;
+    background-image: url(images/department-bg.jpg);
+    font-family: 'Rubik', sans-serif;
+}
+.department-inner-rapper {
+    padding-left: 0;
+    min-height: auto;
+}
+
+.department-container {
+    position: relative;
+}
+
+.column-detail {
+    padding: 35px 22px 35px 22px;
+}
+
+.depart-details h3{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.column-div {
+    min-height: 185px;
+    transition: .4s;
+    border-bottom: 1px #dfe4e9 solid;
+    float: left;
+    width: 33.33%;
+    border-right: 1px #dfe4e9 solid;
+}
+
+.row-end{
+    border-right: none;
+}
+
+.column-end{
+    border-bottom: none;
+}
+
+.iconWrapperMain {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 50px;
+    display: flex;
+}
+
+.column-detail {
+    padding: 35px 22px 35px 22px;
+}
+
+.row{
+    display: flex;
+}
+
+.iconWrapperMainDiv img{
+    padding: 0 45px;
+}
